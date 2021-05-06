@@ -1,0 +1,71 @@
+.hero-wrap {
+    background-image: url('/images/bg_1.jpg');
+    height: 100vh;
+    background-position: 0 30%;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: 0.8;
+    background: linear-gradient(45deg, #f200ff 0%, #ffba42 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f200ff', endColorstr='#ffba42', GradientType=1);
+}
+
+.hero-content-center {
+    height: 100vh;
+    align-items: center;
+    text-align: left;
+}
+
+.subheading {
+    letter-spacing: 3px;
+    font-size: 18px;
+    color: white;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.readit-blog{
+    font-size: 10vw;
+    color: #fff;
+    /* line-height: 1.2; */
+    font-weight: 700;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.text p{
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.mouse-wheel{
+    position: relative;
+}
+
+.down-arrow {
+    color: #fff;
+    font-size: 20px;
+}
+
+#down-arrow{
+    position: absolute;
+    top:20px;
+    animation: down 2s infinite ;
+}
+
+@keyframes down{
+    0%{
+        top:20px;
+    }
+    
+    100%{
+        top:100px;
+    }
+}

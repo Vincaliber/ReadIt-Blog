@@ -1,0 +1,60 @@
+.nav-link:not(.active) {
+    color: #000 ;
+}
+
+a.nav-item.nav-link.active {
+    background-color: #ffd369;
+    border: 1px solid #ffd369;
+    color: #fff;
+}
+
+.team-info-img {
+    position: relative;
+}
+
+.play-icon-div {
+    width: 80px;
+    height: 80px;
+    background-color: #ffd369;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    right: -8%;
+    z-index: 1;
+}
+
+.playIcon {
+    color: #fff;
+    cursor: pointer;
+}
+
+#thankYou {
+    display: none;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: #ffd369;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    opacity: 0;
+    top: 39%;
+    right: -14%;
+    animation: scaleIn 2s infinite ;
+}
+
+@keyframes scaleIn {
+    0% {
+        transform: scale(.1);
+        opacity: .7;
+    }
+
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}

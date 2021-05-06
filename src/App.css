@@ -1,0 +1,13 @@
+.social-icons {
+    display: inline-block;
+    text-decoration: none;
+    background: rgba(0, 0, 0, .05);
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 10px 20px;
+}
+
+.social-icons:hover,
+.social-icons-footer:hover {
+    background-color: #ffd369;
+}

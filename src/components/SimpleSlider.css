@@ -1,0 +1,25 @@
+.pt100 {
+    padding-top: 100px;
+}
+
+.pb100 {
+    padding-bottom: 100px;
+}
+
+.roger-content {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    height: 120px;
+}
+
+.roger-content p {
+    color: #ffd369;
+}
+
+.slick-dots .slick-active button {
+    background: #ffd369;
+    border-radius: 50%;
+}
+
